@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ICC Champions Tropy</title>
+    <style>
+        body{
+            background-color: rgb(54, 114, 54);
+            font-weight: bold;
+            font-size: medium;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: aquamarine;
+        }
+
+        h2{
+          font-family: 'Times New Roman', Times, serif;
+          font-style: italic;
+        }
+
+        li{
+            list-style: none;
+        }
+
+        ul > li {
+            color:rgb(32, 179, 147);
+            font-weight: bold;
+        }
+
+        h2,p{
+            background-color: rgb(24, 77, 44);
+        }
+
+        input{
+            padding: 15px;
+            font-size: 15px;
+        }
+
+        input[type=text]{
+            color:blue;
+            border: 2px solid rgb(117, 0, 250);
+        }
+
+        input[type=email]{
+            color: blue;
+            border: 2px solid rgb(85, 5, 214);
+        }
+
+        button{
+            padding: 5px;
+            background-color: rgb(25, 125, 216);
+            border: none;
+            font-size: 15px;
+            color: white;
+            cursor: pointer;
+            border-radius: 10px;
+        }
+
+        button:hover{
+            background-color: rgb(70, 90, 175);
+            transform: scale(1.1);
+        }
+
+        a{
+            text-decoration: none;
+            color: #3535b1;
+        }
+
+        a::after{
+            content: "🏆";
+        }
+
+        li::before{
+            content: "➡️";
+        }
+
+        p::first-letter{
+            color: rgb(13, 214, 23);
+        }
+
+        li:nth-child(even){
+            color: aquamarine;
+        }
+
+        p:not(:first-of-type){
+            text-decoration: underline;
+            color: rgb(11, 172, 137);
+        }
+
+    </style>
+</head>
+<body>
+    <h2><p>ICC Champions Trophy</p></h2>
+
+    <ul>
+        <li>Home</li>
+        <li>Matches</li>
+        <li>Standings</li>
+        <li>Stats</li>
+    </ul>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id facilis excepturi asperiores esse quod harum, dolores obcaecati eum libero, quo ea. Nemo dolores ipsam dolorum?</p>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, possimus.</p>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, temporibus!</p>
+
+    <input type="text" placeholder="Enter name">
+    <input type="email" placeholder="Enter email"> <br>
+
+    <a href="">Watch live</a>
+    <a href="">Play as a team!</a>
+
+    <br>
+    <br>
+    <button>Submit</button>
+
+</body>
+</html>
